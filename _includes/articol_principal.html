@@ -1,0 +1,14 @@
+<div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="carousel-caption text-start opacity-75 bg-success rounded-top">  
+            <h1><a href="#">{{ post.titlu }}</a></h1>
+            <p>{{ post.sumar }}</p>
+            <h5 style="text-align: right;">—{{ post.autor }}</h5>
+          </div>
+        </div>
+        <img src="{{ post.link_imagine }}" class="img-fluid" width="100%" alt="{{ post.titlu }}">
+      </div>
+    </div>
+</div>
